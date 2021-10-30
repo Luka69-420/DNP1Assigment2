@@ -1,0 +1,99 @@
+@page "/counter"
+@using Models
+@using FamilyWebApplication.Data
+@inject AdultDataList _dataList
+
+<h1>Manage Family</h1>
+
+
+<EditForm Model="@Family" OnSubmit="@FormSubmittedFamiliy">
+    <label for="sname">Street name:</label><br>
+    <input type="text" @bind-value="Family.StreetName" id="sname"/><br>
+    <label for="houseNo">House number:</label><br>
+    <input type="number" @bind-value="Family.HouseNumber" id="houseNo"/><br>
+    <label for="JobTitle">Job Title:</label><br>
+    <input type="text" @bind-value="Job.JobTitle" id="JobTitle"/><br>
+    <label for="Salary">Salary:</label><br>
+    <input type="number" @bind-value="Job.Salary" id="Salary"/><br>
+    <label for="fname">First name:</label><br>
+    <input type="text" @bind-value="Family.StreetName" id="sname"/><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" @bind-value="Adult.LastName" id="lname"/><br>
+    <label for="hcolor">Hair color:</label><br>
+    <input type="text" @bind-value="Adult.HairColor" id="hcolor"/><br>
+    <label for="ecolor">Eye color:</label><br>
+    <input type="text" @bind-value="Adult.EyeColor" id="ecolor"/><br>
+    <label for="age">Age:</label><br>
+    <input type="number" @bind-value="Adult.Age" id="age"/><br>
+    <label for="weight">Weight(kg):</label><br>
+    <input type="number" @bind-value="Adult.Weight" id="weight"/><br>
+    <label for="height">Height(cm):</label><br>
+    <input type="number" @bind-value="Adult.Height" id="height"/><br>
+    <label for="sex">Sex:</label><br>
+    <input type="text" @bind-value="Adult.Sex" id="sex"/><br>
+    <input type="submit" class="btn btn-primary" value="Add New"/><br>
+</EditForm>
+
+
+<table class="table">
+    <thead>
+    <tr>
+   
+        <td>Id</td>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>HairColor</td>
+        <td>EyeColor</td>
+        <td>Age</td>
+        <td>Weight</td>
+        <td>Height</td>
+        <td>Sex</td>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var adult in Adults)
+    {
+        <tr>
+            <td>@adult.Id</td>
+            <td>@adult.FirstName</td>
+            <td>@adult.LastName</td>
+            <td>@adult.HairColor</td>
+            <td>@adult.EyeColor</td>
+            <td>@adult.Age</td>
+            <td>@adult.Weight</td>
+            <td>@adult.Height</td>
+            <td>@adult.Sex</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@code {
+    Adult Adult = new();
+    Family Family = new();
+    Job Job = new();
+    IList<Adult> Adults = AdultDataList.ReadData<Adult>();
+
+    void ClearForm()
+    {
+        Adult.FirstName = null;
+        Job.Salary = 0;
+        Job.JobTitle = null;
+        Family.HouseNumber = 0;
+        Family.StreetName = null;
+        Adult.LastName = null;
+        Adult.HairColor = null;
+        Adult.EyeColor = null;
+        Adult.Age = 0;
+        Adult.Weight = 0;
+        Adult.Height = 0;
+        Adult.Sex = null;
+    }
+
+    private void FormSubmittedFamiliy()
+    {
+        _dataList.SaveFamilieChanges(Family);
+        ClearForm();
+    }
+
+}
