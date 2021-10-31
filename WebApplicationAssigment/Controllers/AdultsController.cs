@@ -1,22 +1,23 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-using WebApplication.Data;
+using WebApplicationAssigment.Data;
+using AdultDataList = WebApplicationAssigment.Data.AdultDataList;
 
-namespace WebApplication.Controllers
+namespace WebApplicationAssigment.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class AdultsController : ControllerBase
     {
-        private IAdultsService adultsService;
+        private AdultDataList adultsService;
+        private IAdultService AdultService;
 
-        public AdultsController(IAdultsService adultsService)
+        public AdultsController(IAdultService AdultService)
         {
-            this.adultsService = adultsService;
+            this.AdultService = AdultService;
         }
 
         [HttpGet]
@@ -24,7 +25,7 @@ namespace WebApplication.Controllers
         {
             try
             {
-                IList<Adult> adults = await adultsService.GetAdultsAsync();
+                IList<Adult> adults = adultsService.GetAdults();
                 return Ok(adults);
             }
             catch (Exception e)
@@ -33,13 +34,13 @@ namespace WebApplication.Controllers
                 return StatusCode(500, e.Message);
             }
         }
-
-        [HttpPost]
+        
+         [HttpPost]
         public async Task<ActionResult<Adult>> addAdult([FromBody] Adult adult)
         {
             try
             {
-                Adult added = await adultsService.AddAdultsAsync(adult);
+                Adult added = adultsService.AddAdult(adult);
                 return Created($"/{added.Id}", added);
             }
             catch (Exception e)
@@ -51,13 +52,9 @@ namespace WebApplication.Controllers
 
         [HttpDelete]
         [Route("{id:int}")]
-        public async Task<ActionResult> DeleteTodo([FromRoute] int id)
+        public async Task RemoveAdult([FromRoute] int id)
         {
-            Adult deleted = await adultsService.DeleteAdultAsync(id);
-            return Ok(deleted);
+             adultsService.RemoveAdult(id);
         }
-
     }
-    
-    
 }

@@ -7,14 +7,41 @@
     <projectFile profileName="WebApplicationAssigment">WebApplicationAssigment/WebApplicationAssigment.csproj</projectFile>
     <projectFile profileName="IIS Express">FamilyWebApplication/FamilyWebApplication.csproj</projectFile>
     <projectFile profileName="FamilyWebApplication">FamilyWebApplication/FamilyWebApplication.csproj</projectFile>
+    <projectFile profileName="IIS Express">WebFamilyClient/WebFamilyClient.csproj</projectFile>
+    <projectFile profileName="WebFamilyClient">WebFamilyClient/WebFamilyClient.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
+    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="1st assigment">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Data/AdultDataList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Data/AdultDataList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/FamilyWebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/FamilyWebApplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Pages/Counter.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/WebApplication/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/AdultsService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/IAdultsService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +53,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20DdIVCjYx0euejBVtAqdnwu83o" />
@@ -45,7 +74,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.FamilyWebApplication">
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplicationAssigment">
+    <configuration name="WebApplication" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebApplication/WebApplication.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net5.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="FamilyWebApplication" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FamilyWebApplication/FamilyWebApplication.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -136,6 +183,41 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="WebFamilyClient" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebFamilyClient/WebFamilyClient.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebFamilyClient" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="WebFamilyClient: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebFamilyClient/WebFamilyClient.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.WebApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -147,8 +229,16 @@
       <updated>1635583013226</updated>
       <workItem from="1635583032770" duration="1437000" />
       <workItem from="1635584763603" duration="117000" />
-      <workItem from="1635584921470" duration="3210000" />
+      <workItem from="1635584921470" duration="37225000" />
     </task>
+    <task id="LOCAL-00001" summary="1st assigment">
+      <created>1635588510287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635588510287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,5 +261,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="1st assigment" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st assigment" />
   </component>
 </project>

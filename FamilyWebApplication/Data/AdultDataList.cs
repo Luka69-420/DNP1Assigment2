@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using System.Threading.Tasks;
 using Models;
 
 namespace FamilyWebApplication.Data
@@ -68,7 +69,26 @@ namespace FamilyWebApplication.Data
             using var outputFile = new StreamWriter(FamilieFile, false);
             outputFile.Write(jsonAdults);
         }
-        
+
+        public async Task<IList<Adult>> GetAdults()
+        {
+            IList<Adult> allAdults =  new List<Adult>(Adults);
+            allAdults = ReadData<Adult>();
+            return allAdults;
+        }
+
+        public async Task<Adult> AddAdult(Adult adult)
+        {
+            Adults.Add(adult);
+            ReadData<Adult>();
+            return adult;
+        }
+
+        public void RemoveAdult(int adultId)
+        {
+            Adults.RemoveAt(adultId);
+            ReadData<Adult>();
+        }
         
         public void SaveUser(User user)
         {

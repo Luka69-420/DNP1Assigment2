@@ -1,9 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Models {
 public class Person {
     [Required]
+    [FromQuery]
     [JsonPropertyName("adultId")]
     public int Id { get; set; }
     public string FirstName { get; set; }

@@ -11,11 +11,6 @@
     <input type="text" @bind-value="Family.StreetName" id="sname"/><br>
     <label for="houseNo">House number:</label><br>
     <input type="number" @bind-value="Family.HouseNumber" id="houseNo"/><br>
-    <label for="JobTitle">Job Title:</label><br>
-    <input type="text" @bind-value="Job.JobTitle" id="JobTitle"/><br>
-    <label for="Salary">Salary:</label><br>
-    <input type="number" @bind-value="Job.Salary" id="Salary"/><br>
-    <label for="fname">First name:</label><br>
     <input type="text" @bind-value="Family.StreetName" id="sname"/><br>
     <label for="lname">Last name:</label><br>
     <input type="text" @bind-value="Adult.LastName" id="lname"/><br>
@@ -71,14 +66,11 @@
 @code {
     Adult Adult = new();
     Family Family = new();
-    Job Job = new();
     IList<Adult> Adults = AdultDataList.ReadData<Adult>();
 
     void ClearForm()
     {
         Adult.FirstName = null;
-        Job.Salary = 0;
-        Job.JobTitle = null;
         Family.HouseNumber = 0;
         Family.StreetName = null;
         Adult.LastName = null;

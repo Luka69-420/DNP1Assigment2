@@ -105,18 +105,15 @@ using FamilyWebApplication.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 71 "E:\3RD SEMESTER\WebAppAssigment\WebApplication\FamilyWebApplication\Pages\Counter.razor"
+#line 66 "E:\3RD SEMESTER\WebAppAssigment\WebApplication\FamilyWebApplication\Pages\Counter.razor"
        
     Adult Adult = new();
     Family Family = new();
-    Job Job = new();
     IList<Adult> Adults = AdultDataList.ReadData<Adult>();
 
     void ClearForm()
     {
         Adult.FirstName = null;
-        Job.Salary = 0;
-        Job.JobTitle = null;
         Family.HouseNumber = 0;
         Family.StreetName = null;
         Adult.LastName = null;
