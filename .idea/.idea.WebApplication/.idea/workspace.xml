@@ -11,38 +11,7 @@
     <projectFile profileName="WebFamilyClient">WebFamilyClient/WebFamilyClient.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="1st assigment">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Data/AdultDataList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Data/AdultDataList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/FamilyWebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/FamilyWebApplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Pages/Counter.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/WebApplication/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/AdultsService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/IAdultsService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="Api client added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/WebAppAssigment/WebApplication/FamilyWebApplication/Data/AdultDataList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -229,7 +199,7 @@
       <updated>1635583013226</updated>
       <workItem from="1635583032770" duration="1437000" />
       <workItem from="1635584763603" duration="117000" />
-      <workItem from="1635584921470" duration="37225000" />
+      <workItem from="1635584921470" duration="37679000" />
     </task>
     <task id="LOCAL-00001" summary="1st assigment">
       <created>1635588510287</created>
@@ -238,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635588510287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Api client added">
+      <created>1635719885100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635719885100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +239,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="1st assigment" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st assigment" />
+    <MESSAGE value="Api client added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api client added" />
   </component>
 </project>

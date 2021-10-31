@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/FamilyWebApplication" Path="E:\3RD SEMESTER\WebAppAssigment\WebApplication\FamilyWebApplication\obj\Debug\net5.0\scopedcss\projectbundle\" />
+  <ContentRoot BasePath="_content/FamilyWebApplication" Path="E:\3RD SEMESTER\WebAppAssigment\WebApplication\FamilyWebApplication\wwwroot\" />
+  <ContentRoot BasePath="/" Path="E:\3RD SEMESTER\WebAppAssigment\WebApplication\WebApplicationAssigment\obj\Debug\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>
