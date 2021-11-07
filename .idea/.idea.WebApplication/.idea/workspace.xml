@@ -11,7 +11,86 @@
     <projectFile profileName="WebFamilyClient">WebFamilyClient/WebFamilyClient.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="Api client added" />
+    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="Api client added">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/staticwebassets/FamilyWebApplication.StaticWebAssets.Manifest.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/staticwebassets/FamilyWebApplication.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/staticwebassets/FamilyWebApplication.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/staticwebassets/FamilyWebApplication.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/FamilyWebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/FamilyWebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/AdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Data/AdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/IAdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Data/IAdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/ref/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/ref/WebApplicationAssigment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/ref/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/ref/WebApplicationAssigment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/staticwebassets/WebApplicationAssigment.StaticWebAssets.Manifest.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/staticwebassets/WebApplicationAssigment.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/staticwebassets/WebApplicationAssigment.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/staticwebassets/WebApplicationAssigment.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/WebApplicationAssigment.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/WebApplicationAssigment.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/WebFamilyClient.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/WebFamilyClient.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/WebFamilyClient.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/Debug/net5.0/WebFamilyClient.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/WebFamilyClient.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/WebFamilyClient.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebFamilyClient/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebFamilyClient/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +101,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/3RD SEMESTER/WebAppAssigment/WebApplication/FamilyWebApplication/Data/AdultDataList.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20DdIVCjYx0euejBVtAqdnwu83o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,7 +122,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplicationAssigment">
+  <component name="RunManager" selected=".NET Launch Settings Profile.FamilyWebApplication">
     <configuration name="WebApplication" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -200,6 +278,7 @@
       <workItem from="1635583032770" duration="1437000" />
       <workItem from="1635584763603" duration="117000" />
       <workItem from="1635584921470" duration="37679000" />
+      <workItem from="1636282348733" duration="4939000" />
     </task>
     <task id="LOCAL-00001" summary="1st assigment">
       <created>1635588510287</created>

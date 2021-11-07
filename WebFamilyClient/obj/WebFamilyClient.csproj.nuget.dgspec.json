@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\3RD SEMESTER\\WebAppAssigment\\WebApplication\\WebFamilyClient\\WebFamilyClient.csproj": {}
+    "E:\\3RD SEMESTER\\DNP1Assigment2\\WebFamilyClient\\WebFamilyClient.csproj": {}
   },
   "projects": {
-    "E:\\3RD SEMESTER\\WebAppAssigment\\WebApplication\\WebFamilyClient\\WebFamilyClient.csproj": {
+    "E:\\3RD SEMESTER\\DNP1Assigment2\\WebFamilyClient\\WebFamilyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\3RD SEMESTER\\WebAppAssigment\\WebApplication\\WebFamilyClient\\WebFamilyClient.csproj",
+        "projectUniqueName": "E:\\3RD SEMESTER\\DNP1Assigment2\\WebFamilyClient\\WebFamilyClient.csproj",
         "projectName": "WebFamilyClient",
-        "projectPath": "E:\\3RD SEMESTER\\WebAppAssigment\\WebApplication\\WebFamilyClient\\WebFamilyClient.csproj",
+        "projectPath": "E:\\3RD SEMESTER\\DNP1Assigment2\\WebFamilyClient\\WebFamilyClient.csproj",
         "packagesPath": "C:\\Users\\lukau\\.nuget\\packages\\",
-        "outputPath": "E:\\3RD SEMESTER\\WebAppAssigment\\WebApplication\\WebFamilyClient\\obj\\",
+        "outputPath": "E:\\3RD SEMESTER\\DNP1Assigment2\\WebFamilyClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lukau\\AppData\\Roaming\\NuGet\\NuGet.Config"

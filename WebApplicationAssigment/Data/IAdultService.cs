@@ -7,7 +7,7 @@ namespace WebApplicationAssigment.Data
     public interface IAdultService
     {
         Task<IList<Adult>> GetAdultsAsync();
-        Task PostAdultAsync();
-        void RemoveAdult(int adultId);
+        Task PostAdultAsync(Adult adult);
+        Task RemoveAdult(int adultId);
     }
 }

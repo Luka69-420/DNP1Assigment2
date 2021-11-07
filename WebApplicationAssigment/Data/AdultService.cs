@@ -22,34 +22,22 @@ namespace WebApplicationAssigment.Data
             {
                 throw new Exception($"Error: {responseMessage.StatusCode}, {responseMessage.ReasonPhrase}");
             }
-
-            string result = await responseMessage.Content.ReadAsStringAsync().ConfigureAwait(false);
-
-            List<Adult> adults = JsonSerializer.Deserialize<List<Adult>>(result, new JsonSerializerOptions()
+            string result1 = await responseMessage.Content.ReadAsStringAsync().ConfigureAwait(false);
+            List<Adult> adults1 = JsonSerializer.Deserialize<List<Adult>>(result1, new JsonSerializerOptions
             {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             });
-
-            return adults;
+            return adults1;
+            
         }
         
-        public async  Task PostAdultAsync()
+        
+        public async  Task PostAdultAsync(Adult adult)
         {
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+            
             HttpClient client = new HttpClient();
-
-            Adult adult = new()
-            {
-                Id = 69,
-                Age = 32,
-                EyeColor = "blue",
-                FirstName = "first",
-                LastName = "last",
-                HairColor = "hair",
-                JobTitle = null,
-                Height = 100,
-                Sex = "m",
-                Weight = 100
-            };
 
             string adultAsJson = JsonSerializer.Serialize(adult);
 
@@ -67,9 +55,15 @@ namespace WebApplicationAssigment.Data
             
         }
 
-        public void RemoveAdult(int adultId)
+        public async Task RemoveAdult(int adultId)
         {
-            throw new System.NotImplementedException();
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+
+            using HttpClient client = new HttpClient(clientHandler);
+            HttpResponseMessage response = await client.DeleteAsync("https://localhost:5001/Adults?adultId="+adultId).ConfigureAwait(false);
+            if(!response.IsSuccessStatusCode)
+                throw new Exception(@"Error: {responseMessage.StatusCode}, {responseMessage.ReasonPhrase}");
         }
     }
 }

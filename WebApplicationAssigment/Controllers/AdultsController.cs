@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using WebApplicationAssigment.Data;
-using AdultDataList = WebApplicationAssigment.Data.AdultDataList;
 
 namespace WebApplicationAssigment.Controllers
 {
@@ -12,7 +11,7 @@ namespace WebApplicationAssigment.Controllers
     [Route("[controller]")]
     public class AdultsController : ControllerBase
     {
-        private AdultDataList adultsService;
+       // private AdultDataList adultsService;
         private IAdultService AdultService;
 
         public AdultsController(IAdultService AdultService)
@@ -25,7 +24,7 @@ namespace WebApplicationAssigment.Controllers
         {
             try
             {
-                IList<Adult> adults = adultsService.GetAdults();
+                IList<Adult> adults = await AdultService.GetAdultsAsync();
                 return Ok(adults);
             }
             catch (Exception e)
@@ -40,8 +39,8 @@ namespace WebApplicationAssigment.Controllers
         {
             try
             {
-                Adult added = adultsService.AddAdult(adult);
-                return Created($"/{added.Id}", added);
+                await AdultService.PostAdultAsync(adult);
+               return Created($"/{adult.Id}", adult);
             }
             catch (Exception e)
             {
@@ -54,7 +53,15 @@ namespace WebApplicationAssigment.Controllers
         [Route("{id:int}")]
         public async Task RemoveAdult([FromRoute] int id)
         {
-             adultsService.RemoveAdult(id);
+            try
+            {
+                await AdultService.RemoveAdult(id);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+                StatusCode(500, e.Message);
+            }
         }
     }
 }
