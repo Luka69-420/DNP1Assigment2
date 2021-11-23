@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Models;
 
 namespace WebApplicationAssigment.Data
 {
     public interface IFamilyService
     {
-        IList<Family> GetFamilies();
+        Task<IList<Family>> GetFamilies();
         Family AddFamily(Family family);
-        void RemoveFamily(int HouseNo);
+        Task RemoveFamily(int HouseNo);
     }
 }

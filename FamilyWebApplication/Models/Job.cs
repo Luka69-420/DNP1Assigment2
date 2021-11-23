@@ -5,7 +5,9 @@ namespace Models
 {
     public class Job
     {
-        public string JobTitle { get; set; }
+        public int Id{ get; set; }
+        
+        public string Title { get; set; }
         public int Salary { get; set; }
     }
 }

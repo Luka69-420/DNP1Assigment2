@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using FamilyWebApplication.Data;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-using AdultDataList = WebApplicationAssigment.Data.AdultDataList;
+using AdultDataList = WebApplicationAssigment.Data.IUserService;
 
 namespace WebApplicationAssigment.Controllers
 {
@@ -49,12 +49,7 @@ namespace WebApplicationAssigment.Controllers
             }
         }
 
-        [HttpDelete]
-        [Route("{userId:int}")]
-        public async Task RemoveUser([FromRoute] int userId)
-        {
-            usersService.RemoveUser(userId);
-        }
+
     }
 }
 

@@ -7,6 +7,5 @@ namespace WebApplicationAssigment.Data
     {
         IList<User> GetUsers();
         User AddUser(User user);
-        void RemoveUser(int userId);
     }
 }
