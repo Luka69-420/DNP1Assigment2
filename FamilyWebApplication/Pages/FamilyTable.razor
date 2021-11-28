@@ -1,0 +1,87 @@
+﻿@page "/fetchdata"
+@using FamilyWebApplication.Data
+@using Models
+@inject AdultDataList _dataList;
+@inject Adult Adult
+@inject NavigationManager Navgr
+
+<p> Filter by Street name: <input type="text" @oninput="@((arg) => FilterBySN(arg))" placeholder="Filter By Street name" style="width:150px"/> </p>
+
+@if (toShowFamilies == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Street name </td>
+            <td>House Number </td>
+            <td>
+                <button @onclick="GoToAdultPage2">Adult</button>
+            </td>
+            <td>
+                <input type="button" class="btn btn-primary" value="Children"/><br>
+            </td>
+            <td>
+                <input type="button" class="btn btn-primary" value="Pets"/><br>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        @foreach (var family in toShowFamilies)
+        {
+            @foreach (var adult in family.Adults)
+            {
+                @foreach (var child in family.Children)
+                {
+                    @foreach (var pets in family.Pets)
+                    {
+                        <tr>
+                            <td>@family.StreetName</td>
+                            <td>@family.HouseNumber</td>
+                            <td>@adult.Id</td>
+                            <td>@child.Id</td>
+                            <td>@pets.PetId</td>
+                        </tr>
+                    }
+                }
+            }
+        }
+        </tbody>
+    </table>
+}
+
+@code
+{
+    readonly IList<Family> Families = AdultDataList.ReadFamiliesData<Family>();
+    IList<Family> toShowFamilies = AdultDataList.ReadFamiliesData<Family>();
+
+
+    private string? filterByFN = "";
+
+    private void FilterBySN(ChangeEventArgs changeEventArgs)
+    {
+        filterByFN = changeEventArgs.Value.ToString();
+        if (filterByFN != null)
+        {
+            toShowFamilies = Families.Where(a => a.StreetName == filterByFN).ToList();
+        }
+        else
+        {
+            toShowFamilies = Families;
+        }
+    }
+
+    private void GoToAdultPage2()
+    {
+        Navgr.NavigateTo("/Counter");
+    }
+}
+
+}

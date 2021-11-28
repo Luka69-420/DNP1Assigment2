@@ -116,3 +116,7 @@ E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\ref\FamilyW
 E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\FamilyWebApplication.pdb
 E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\FamilyWebApplication.genruntimeconfig.cache
 E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\FamilyWebApplication.csproj.CopyComplete
+E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\RazorDeclaration\Pages\AddAndSeeAdult.razor.g.cs
+E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\RazorDeclaration\Pages\FamilyTable.razor.g.cs
+E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\Razor\Pages\AddAndSeeAdult.razor.g.cs
+E:\3RD SEMESTER\DNP1Assigment2\FamilyWebApplication\obj\Debug\net5.0\Razor\Pages\FamilyTable.razor.g.cs
