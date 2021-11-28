@@ -8,6 +8,6 @@ namespace WebApplicationAssigment.Data
     {
         Task<IList<Adult>> GetAdultsAsync();
         Task PostAdultAsync(Adult adult);
-        Task RemoveAdult(int adultId);
+        Task RemoveAdult(Adult adult);
     }
 }

@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\3RD SEMESTER\\Assignment1\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "E:\\3RD SEMESTER\\DNP1Assigment2\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "E:\\3RD SEMESTER\\Assignment1\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectPath": "E:\\3RD SEMESTER\\DNP1Assigment2\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\lukau\\.nuget\\packages\\",
-      "outputPath": "E:\\3RD SEMESTER\\Assignment1\\WebApplication\\WebApplication\\obj\\",
+      "outputPath": "E:\\3RD SEMESTER\\DNP1Assigment2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lukau\\AppData\\Roaming\\NuGet\\NuGet.Config"

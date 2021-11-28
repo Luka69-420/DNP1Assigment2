@@ -5,8 +5,8 @@ namespace Models
 {
     public class Job
     {
-        public int Id{ get; set; }
-        
+        [Key]
+        public int JobId{ get; set; }
         public string Title { get; set; }
         public int Salary { get; set; }
     }

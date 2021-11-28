@@ -18,4 +18,16 @@
       <ProjectReference Include="..\FamilyWebApplication\FamilyWebApplication.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Migrations\FamilyDbContextModelSnapshot.cs" />
+      <Compile Remove="Migrations\20211127133513_FamilyTableData.Designer.cs" />
+      <Compile Remove="Migrations\20211127132253_FamilyTableDb.Designer.cs" />
+      <Compile Remove="Migrations\20211128193305_FamilyTable.Designer.cs" />
+      <Compile Remove="Migrations\20211127133513_FamilyTableData.cs" />
+      <Compile Remove="Migrations\20211127132253_FamilyTableDb.cs" />
+      <Compile Remove="Migrations\20211128193305_FamilyTable.cs" />
+      <Compile Remove="Migrations\20211123161434_Family.cs" />
+      <Compile Remove="Migrations\20211123161434_Family.Designer.cs" />
+    </ItemGroup>
+
 </Project>

@@ -1344,7 +1344,7 @@
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="499" parent="170" name="InterestsId">
+    <column id="499" parent="170" name="InterestsInterestId">
       <Position>2</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
@@ -1352,18 +1352,18 @@
     <index id="500" parent="170" name="sqlite_autoindex_ChildInterest_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ChildrenId
-InterestsId</ColNames>
+InterestsInterestId</ColNames>
       <ColumnCollations>
 </ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <index id="501" parent="170" name="IX_ChildInterest_InterestsId">
-      <ColNames>InterestsId</ColNames>
+    <index id="501" parent="170" name="IX_ChildInterest_InterestsInterestId">
+      <ColNames>InterestsInterestId</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
     <key id="502" parent="170" name="PK_ChildInterest">
       <ColNames>ChildrenId
-InterestsId</ColNames>
+InterestsInterestId</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex_ChildInterest_1</UnderlyingIndexName>
     </key>
@@ -1374,277 +1374,263 @@ InterestsId</ColNames>
       <RefColNames>Id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="504" parent="170" name="FK_ChildInterest_Interests_InterestsId">
-      <ColNames>InterestsId</ColNames>
+    <foreign-key id="504" parent="170" name="FK_ChildInterest_Interests_InterestsInterestId">
+      <ColNames>InterestsInterestId</ColNames>
       <RefTableName>Interests</RefTableName>
       <RefKeyName>PK_Interests</RefKeyName>
-      <RefColNames>Id</RefColNames>
+      <RefColNames>InterestId</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="505" parent="171" name="Id">
+    <column id="505" parent="171" name="ChildId">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="506" parent="171" name="StreetName">
+    <column id="506" parent="171" name="HouseNumber">
       <Position>2</Position>
-      <DataType>TEXT|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="507" parent="171" name="HouseNumber">
-      <Position>3</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="508" parent="171" name="sqlite_autoindex_Families_1">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>HouseNumber
-StreetName</ColNames>
-      <ColumnCollations>
-</ColumnCollations>
-      <Unique>1</Unique>
-    </index>
-    <key id="509" parent="171" name="PK_Families">
-      <ColNames>Id</ColNames>
+    <column id="507" parent="171" name="StreetName">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="508" parent="171" name="PK_Families">
+      <ColNames>ChildId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="510" parent="171" name="AK_Families_HouseNumber_StreetName">
-      <ColNames>HouseNumber
-StreetName</ColNames>
-      <UnderlyingIndexName>sqlite_autoindex_Families_1</UnderlyingIndexName>
-    </key>
-    <column id="511" parent="172" name="Id">
+    <column id="509" parent="172" name="InterestId">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="512" parent="172" name="Type">
+    <column id="510" parent="172" name="Type">
       <Position>2</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="513" parent="172" name="Description">
+    <column id="511" parent="172" name="Description">
       <Position>3</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <key id="514" parent="172" name="PK_Interests">
-      <ColNames>Id</ColNames>
+    <key id="512" parent="172" name="PK_Interests">
+      <ColNames>InterestId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="515" parent="173" name="Id">
+    <column id="513" parent="173" name="JobId">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="516" parent="173" name="Title">
+    <column id="514" parent="173" name="Title">
       <Position>2</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="517" parent="173" name="Salary">
+    <column id="515" parent="173" name="Salary">
       <Position>3</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="518" parent="173" name="PK_Jobs">
-      <ColNames>Id</ColNames>
+    <key id="516" parent="173" name="PK_Jobs">
+      <ColNames>JobId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="519" parent="174" name="Id">
+    <column id="517" parent="174" name="Id">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="520" parent="174" name="FirstName">
+    <column id="518" parent="174" name="Adult_FamilyChildId">
       <Position>2</Position>
-      <DataType>TEXT|0s</DataType>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="519" parent="174" name="Age">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="521" parent="174" name="LastName">
-      <Position>3</Position>
-      <DataType>TEXT|0s</DataType>
-    </column>
-    <column id="522" parent="174" name="HairColor">
+    <column id="520" parent="174" name="Discriminator">
       <Position>4</Position>
       <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="523" parent="174" name="EyeColor">
+    <column id="521" parent="174" name="EyeColor">
       <Position>5</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="524" parent="174" name="Age">
+    <column id="522" parent="174" name="FamilyChildId">
       <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="523" parent="174" name="FirstName">
+      <Position>7</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="524" parent="174" name="HairColor">
+      <Position>8</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="525" parent="174" name="Height">
+      <Position>9</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="525" parent="174" name="Weight">
-      <Position>7</Position>
+    <column id="526" parent="174" name="JobId">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="527" parent="174" name="LastName">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="528" parent="174" name="Sex">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="529" parent="174" name="Weight">
+      <Position>13</Position>
       <DataType>REAL|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="526" parent="174" name="Height">
-      <Position>8</Position>
-      <DataType>INTEGER|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="527" parent="174" name="Sex">
-      <Position>9</Position>
-      <DataType>TEXT|0s</DataType>
-    </column>
-    <column id="528" parent="174" name="Discriminator">
-      <Position>10</Position>
-      <DataType>TEXT|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="529" parent="174" name="JobId">
-      <Position>11</Position>
-      <DataType>INTEGER|0s</DataType>
-    </column>
-    <column id="530" parent="174" name="Adult_FamilyId">
-      <Position>12</Position>
-      <DataType>INTEGER|0s</DataType>
-    </column>
-    <column id="531" parent="174" name="FamilyId">
-      <Position>13</Position>
-      <DataType>INTEGER|0s</DataType>
-    </column>
+    <index id="530" parent="174" name="IX_Persons_Adult_FamilyChildId">
+      <ColNames>Adult_FamilyChildId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="531" parent="174" name="IX_Persons_FamilyChildId">
+      <ColNames>FamilyChildId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
     <index id="532" parent="174" name="IX_Persons_JobId">
       <ColNames>JobId</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <index id="533" parent="174" name="IX_Persons_Adult_FamilyId">
-      <ColNames>Adult_FamilyId</ColNames>
-      <ColumnCollations></ColumnCollations>
-    </index>
-    <index id="534" parent="174" name="IX_Persons_FamilyId">
-      <ColNames>FamilyId</ColNames>
-      <ColumnCollations></ColumnCollations>
-    </index>
-    <key id="535" parent="174" name="PK_Persons">
+    <key id="533" parent="174" name="PK_Persons">
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
+    <foreign-key id="534" parent="174" name="FK_Persons_Families_Adult_FamilyChildId">
+      <ColNames>Adult_FamilyChildId</ColNames>
+      <RefTableName>Families</RefTableName>
+      <RefKeyName>PK_Families</RefKeyName>
+      <RefColNames>ChildId</RefColNames>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="535" parent="174" name="FK_Persons_Families_FamilyChildId">
+      <ColNames>FamilyChildId</ColNames>
+      <RefTableName>Families</RefTableName>
+      <RefKeyName>PK_Families</RefKeyName>
+      <RefColNames>ChildId</RefColNames>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
     <foreign-key id="536" parent="174" name="FK_Persons_Jobs_JobId">
       <ColNames>JobId</ColNames>
       <RefTableName>Jobs</RefTableName>
       <RefKeyName>PK_Jobs</RefKeyName>
-      <RefColNames>Id</RefColNames>
+      <RefColNames>JobId</RefColNames>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="537" parent="174" name="FK_Persons_Families_Adult_FamilyId">
-      <ColNames>Adult_FamilyId</ColNames>
-      <RefTableName>Families</RefTableName>
-      <RefKeyName>PK_Families</RefKeyName>
-      <RefColNames>Id</RefColNames>
-      <OnDelete>restrict</OnDelete>
-    </foreign-key>
-    <foreign-key id="538" parent="174" name="FK_Persons_Families_FamilyId">
-      <ColNames>FamilyId</ColNames>
-      <RefTableName>Families</RefTableName>
-      <RefKeyName>PK_Families</RefKeyName>
-      <RefColNames>Id</RefColNames>
-      <OnDelete>restrict</OnDelete>
-    </foreign-key>
-    <column id="539" parent="175" name="Id">
+    <column id="537" parent="175" name="PetId">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="540" parent="175" name="Species">
+    <column id="538" parent="175" name="Age">
       <Position>2</Position>
-      <DataType>TEXT|0s</DataType>
-    </column>
-    <column id="541" parent="175" name="Name">
-      <Position>3</Position>
-      <DataType>TEXT|0s</DataType>
-    </column>
-    <column id="542" parent="175" name="Age">
-      <Position>4</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="543" parent="175" name="ChildId">
+    <column id="539" parent="175" name="ChildId">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="540" parent="175" name="FamilyChildId">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="541" parent="175" name="Name">
       <Position>5</Position>
-      <DataType>INTEGER|0s</DataType>
+      <DataType>TEXT|0s</DataType>
     </column>
-    <column id="544" parent="175" name="FamilyId">
+    <column id="542" parent="175" name="Species">
       <Position>6</Position>
-      <DataType>INTEGER|0s</DataType>
+      <DataType>TEXT|0s</DataType>
     </column>
-    <index id="545" parent="175" name="IX_Pets_ChildId">
+    <index id="543" parent="175" name="IX_Pets_ChildId">
       <ColNames>ChildId</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <index id="546" parent="175" name="IX_Pets_FamilyId">
-      <ColNames>FamilyId</ColNames>
+    <index id="544" parent="175" name="IX_Pets_FamilyChildId">
+      <ColNames>FamilyChildId</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <key id="547" parent="175" name="PK_Pets">
-      <ColNames>Id</ColNames>
+    <key id="545" parent="175" name="PK_Pets">
+      <ColNames>PetId</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="548" parent="175" name="FK_Pets_Persons_ChildId">
+    <foreign-key id="546" parent="175" name="FK_Pets_Persons_ChildId">
       <ColNames>ChildId</ColNames>
       <RefTableName>Persons</RefTableName>
       <RefKeyName>PK_Persons</RefKeyName>
       <RefColNames>Id</RefColNames>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="549" parent="175" name="FK_Pets_Families_FamilyId">
-      <ColNames>FamilyId</ColNames>
+    <foreign-key id="547" parent="175" name="FK_Pets_Families_FamilyChildId">
+      <ColNames>FamilyChildId</ColNames>
       <RefTableName>Families</RefTableName>
       <RefKeyName>PK_Families</RefKeyName>
-      <RefColNames>Id</RefColNames>
+      <RefColNames>ChildId</RefColNames>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="550" parent="176" name="MigrationId">
+    <column id="548" parent="176" name="MigrationId">
       <Position>1</Position>
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="551" parent="176" name="ProductVersion">
+    <column id="549" parent="176" name="ProductVersion">
       <Position>2</Position>
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="552" parent="176" name="sqlite_autoindex___EFMigrationsHistory_1">
+    <index id="550" parent="176" name="sqlite_autoindex___EFMigrationsHistory_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>MigrationId</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="553" parent="176" name="PK___EFMigrationsHistory">
+    <key id="551" parent="176" name="PK___EFMigrationsHistory">
       <ColNames>MigrationId</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex___EFMigrationsHistory_1</UnderlyingIndexName>
     </key>
-    <column id="554" parent="177" name="type">
+    <column id="552" parent="177" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="555" parent="177" name="name">
+    <column id="553" parent="177" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="556" parent="177" name="tbl_name">
+    <column id="554" parent="177" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="557" parent="177" name="rootpage">
+    <column id="555" parent="177" name="rootpage">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="558" parent="177" name="sql">
+    <column id="556" parent="177" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="559" parent="178" name="name">
+    <column id="557" parent="178" name="name">
       <Position>1</Position>
     </column>
-    <column id="560" parent="178" name="seq">
+    <column id="558" parent="178" name="seq">
       <Position>2</Position>
     </column>
   </database-model>

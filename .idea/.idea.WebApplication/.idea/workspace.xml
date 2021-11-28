@@ -11,8 +11,11 @@
     <projectFile profileName="WebFamilyClient">WebFamilyClient/WebFamilyClient.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="Web Client updated">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dae7588c-ebbb-4f87-ba56-2c3309c89cd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/0049980c-4811-44b3-a1d6-56e1bc685db8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/0049980c-4811-44b3-a1d6-56e1bc685db8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/8f5a2126-69ac-4251-b658-f8f361a14944.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/8f5a2126-69ac-4251-b658-f8f361a14944.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Adult.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Child.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Child.cs" afterDir="false" />
@@ -21,63 +24,49 @@
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Job.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/Pet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Pages/AddAndSeeAdult.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Pages/FamilyTable.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/bin/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.RazorComponent.input.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.TagHelpers.output.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/App.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/Login.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/_Imports.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/FamilyWebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/ref/FamilyWebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWebApplication/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/IFamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Data/IFamilyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Data/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Controllers/AdultsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/AdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Data/AdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Data/IAdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Data/IAdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Family.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Migrations/20211123161434_Family.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Migrations/20211123161434_Family.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Migrations/FamilyDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/Persistence/FamilyDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/Persistence/FamilyDBContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/WebApplicationAssigment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/WebApplicationAssigment.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/FamilyWebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/WebApplicationAssigment.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/ref/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/bin/Debug/net5.0/ref/WebApplicationAssigment.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/WebApplicationAssigment.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/ref/WebApplicationAssigment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/Debug/net5.0/ref/WebApplicationAssigment.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/WebApplicationAssigment.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/WebApplicationAssigment.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/WebApplicationAssigment.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/WebApplicationAssigment.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplicationAssigment/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplicationAssigment/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.RazorComponent.input.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +76,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Database" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,16 +90,38 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Controllers/AdultsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Controllers/AdultsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://AdultsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d69adf05f5694602b3e6902c009bb1aa2ad78/0/KeyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FamilyWebApplication/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Controllers/AdultsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Controllers/AdultsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/3RD SEMESTER/DNP1Assigment2/WebApplicationAssigment/Data/AdultService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20DdIVCjYx0euejBVtAqdnwu83o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -127,6 +138,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -290,6 +302,11 @@
       <workItem from="1636282348733" duration="5809000" />
       <workItem from="1636558968463" duration="1987000" />
       <workItem from="1636568477922" duration="618000" />
+      <workItem from="1637855011892" duration="651000" />
+      <workItem from="1637867020047" duration="3884000" />
+      <workItem from="1637941748111" duration="903000" />
+      <workItem from="1637943839737" duration="6453000" />
+      <workItem from="1638009259051" duration="28428000" />
     </task>
     <task id="LOCAL-00001" summary="1st assigment">
       <created>1635588510287</created>
@@ -312,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636289754562</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating of database and stuff that goes with it">
+      <created>1637684499035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637684499035</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Database stuff">
+      <created>1637684605142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637684605142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +352,16 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -338,6 +379,8 @@
     <MESSAGE value="1st assigment" />
     <MESSAGE value="Api client added" />
     <MESSAGE value="Web Client updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web Client updated" />
+    <MESSAGE value="Creating of database and stuff that goes with it" />
+    <MESSAGE value="Database stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database stuff" />
   </component>
 </project>

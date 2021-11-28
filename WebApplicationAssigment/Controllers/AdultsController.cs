@@ -14,13 +14,13 @@ namespace WebApplicationAssigment.Controllers
        // private AdultDataList adultsService;
         private IAdultService AdultService;
 
-        public AdultsController(IAdultService AdultService)
+        public AdultsController(IAdultService adultService)
         {
-            this.AdultService = AdultService;
+            this.AdultService = adultService;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<Adult>>> getAdults()
+        public async Task<ActionResult<IList<Adult>>> GetAdults()
         {
             try
             {
@@ -35,7 +35,7 @@ namespace WebApplicationAssigment.Controllers
         }
         
          [HttpPost]
-        public async Task<ActionResult<Adult>> addAdult([FromBody] Adult adult)
+        public async Task<ActionResult<Adult>> AddAdult([FromBody] Adult adult)
         {
             try
             {
@@ -50,12 +50,12 @@ namespace WebApplicationAssigment.Controllers
         }
 
         [HttpDelete]
-        [Route("{id:int}")]
-        public async Task RemoveAdult([FromRoute] int id)
+        public async Task RemoveAdult([FromBody] Adult adult)
         {
             try
             {
-                await AdultService.RemoveAdult(id);
+                await AdultService.RemoveAdult(adult);
+
             }
             catch(Exception e)
             {

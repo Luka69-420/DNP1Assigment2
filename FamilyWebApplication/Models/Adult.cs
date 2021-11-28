@@ -1,14 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Models {
-public class Adult : Person
+namespace Models
 {
-    public int Id{ get; set; }
-    public Job Job { get; set; }
-
-    public Adult()
+    public class Adult : Person
     {
-        Job = new Job();
+        [Key]
+        public int AdultId { get; set; }
+        public Job Job { get; set; }
     }
-}
 }
